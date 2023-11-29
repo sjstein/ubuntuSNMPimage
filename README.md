@@ -1,8 +1,8 @@
 # ubuntuSNMPimage
 - Contains files and support for tracking down reconnection issues with SNMPv3
 
-### To create an Ubuntu Docker image which builds/installs the latest net-snmp support found at 
-(https://github.com/net-snmp/net-snmp/tree/master), the following files are required:
+### To create an Ubuntu Docker image with net-snmp support the following files are required:
+(builds/installs the latest net-snmp support found at https://github.com/net-snmp/net-snmp/tree/master) 
 
 - Dockerfile		: Standard format Dockerfile with rules for image creation
 - config.status		: Configuration for building of net-snmp without user intervention
